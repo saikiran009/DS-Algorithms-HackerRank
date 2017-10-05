@@ -1,3 +1,37 @@
+'''Problem Statement
+Given a boolean matrix,find the number of islands.
+
+What is an island?
+
+A group of connected 1s forms an island. For example, the below matrix contains 5 islands
+
+Input Format
+
+Number of rows ,number of columns in the first line.
+
+Followed by the matrix.
+
+Output Format
+
+Print the number of islands.
+
+Sample Input
+
+5 5 
+1 1 0 0 0   
+0 1 0 0 1
+1 0 0 1 1
+0 0 0 0 0
+1 0 1 0 1
+Sample Output
+
+5
+
+For more details please visit: https://www.hackerrank.com/contests/crescent-practice-3rd-years/challenges/islands-1/problem
+'''
+
+
+
 list_of_size = raw_input().split(' ')
 no_of_rows = int(list_of_size[0])
 no_of_columns = int(list_of_size[1])
